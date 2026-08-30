@@ -229,13 +229,13 @@ A Star Schema is implemented for analytical querying.
  
                   |
                   
-     +------------+------------+
+        --------------------
      
-       |                   |
+           |           |
        
-       v                   v
+           v           v
        
-  dim_seller          dim_payment 
+      dim_seller | dim_payment 
 
 **Fact Table**
 
